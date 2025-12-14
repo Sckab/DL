@@ -1,0 +1,29 @@
+{
+  "name": "dl",
+  "version": "0.0.0",
+  "description": "A simple ls written in typescript",
+  "keywords": [
+    "filesystem"
+  ],
+  "homepage": "https://github.com/Sckab/dl#readme",
+  "bugs": {
+    "url": "https://github.com/Sckab/dl/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sckab/dl.git"
+  },
+  "license": "GPL-3.0",
+  "author": "Sckab",
+  "devDependencies": {
+    "prettier": "^3.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "run": "node dist/index.js",
+    "format": "prettier --write 'src/**/*.ts'",
+    "dev": "ts-node src/index.ts"
+  }
+}
